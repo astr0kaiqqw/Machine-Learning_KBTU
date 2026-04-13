@@ -1,10 +1,18 @@
 # ML FastAPI Docker Project
 
+## Project structure
+- train.py
+- main.py
+- model.joblib
+- requirements.txt
+- Dockerfile
+- README.md
+
 ## Run locally
 uvicorn main:app --reload
 
-## Test API
-http://localhost:8000/docs
+## API docs
+http://127.0.0.1:8000/docs
 
 ## Docker
 docker build -t ml-api .
